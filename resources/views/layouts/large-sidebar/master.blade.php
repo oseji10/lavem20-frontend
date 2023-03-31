@@ -9,7 +9,7 @@
         <!-- CSRF Token -->
         <meta name="csrf-token" content="{{ csrf_token() }}">
         {{-- Page Title --}}
-        <title>{{ config('app.name') }} Dashboard Template | @yield('title', $pageTitle ?? '')</title>
+        <title>{{ config('app.name') }} LAVEMS | @yield('title', $pageTitle ?? '')</title>
         {{-- favicon --}}
         <link rel="icon" type="image/x-icon" href="{{asset('storage/img/favicon.ico')}}" />
         {{-- Material font Icons --}}
@@ -57,13 +57,13 @@
 
                     <!-- Start:: content (Your custom content)-->
                     <!-- Start:: Footer-->
-                    @include('layouts.large-sidebar.footer')
+                    {{-- @include('layouts.large-sidebar.footer') --}}
                     <!-- End:: Footer-->
                 </div>
                 <!-- End:: content body-->
             </div>
             {{-- customizer --}}
-            @include('layouts.common.customizer')
+            {{-- @include('layouts.common.customizer') --}}
         </div>
 
 

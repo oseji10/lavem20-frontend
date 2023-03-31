@@ -10,9 +10,9 @@
                     <li class="breadcrumb-home"><a href="#"> <i class="material-icons">
                                 home
                             </i></a></li>
-                    <li class="breadcrumb-item text-capitalize"><a href="#"> @if ($subCategory)
+                    {{-- <li class="breadcrumb-item text-capitalize"><a href="#"> @if ($subCategory)
                             {{$subCategory}}
-                            @endif </a></li>
+                            @endif </a></li> --}}
                     <li class="breadcrumb-item active text-capitalize" aria-current="page">
                         @if ($pageTitle)
                         {{$pageTitle}}

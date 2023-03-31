@@ -9,7 +9,7 @@
 
             <thead>
                 {{-- {{$clients}} --}}
-
+                @livewire('show-clients')
 
                 <tr>
 
